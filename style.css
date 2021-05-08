@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+    
+#square {
+width: 200px;
+height: 200px;
+background-color: yellow;
+position: relative;
+left: 550px;
+top: 250px;
+display: flex;
+    
+}
+#red{
+    width: 8em;
+    height:5em;
+    border-radius: 50%;
+    background-color: red;
+    position: relative  ;
+    right: -90px;
+    top: -40px;
+}
+#blue{
+  width: 8em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: blue;
+  position: relative;
+  right: 160px;
+  bottom: -150px;
+
+}
+span{
+    text-align: center;
+    position: relative;
+    right: -50px;
+    padding-top: 40%;
+
+}
+#one{
+    background-color: cyan;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#two{
+    background-color: darkcyan;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#three{
+    background-color: darkcyan;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#four{
+    background-color: cyan;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
